@@ -1,0 +1,120 @@
+
+    body {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        user-select: none;
+        background: #000000;
+    }
+
+    .container {   margin-left: 1.8em;
+        padding: 20px;
+        border-radius: 8px;
+        background-color: #1b1b1b;
+    }
+
+    .content {
+        width: 100%;
+        margin-top: 1.7em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .btn,.operation, .btn-major{
+        width: 80px;
+        height: 80px;
+        font-size: 25px;
+        border: none;
+        outline: none;
+        margin: 2px;
+        border-radius: 40px;
+        transition: .1s;
+        background-color: #343434;
+        color: white;
+    
+    }
+
+    .row button:hover {
+        background: #606060;
+    }
+    
+    .operation {
+        color: rgb(0, 255, 38);
+    }
+
+    .display  {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: .5em;
+        width: auto;
+        height: 90px;
+        padding-right: .5em;
+        background: #ecf0f3;
+        border-radius: 6px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input-display {
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        margin: 20px;
+    }
+
+    #screen {
+        height: 40px;
+        text-align: right;
+        font-size: 30px;
+        outline: none;
+        border: none;
+        background: #ecf0f3;
+    } 
+    
+    #solution {
+        height: 40px;
+        text-align: right;
+        font-size: 30px;
+        outline: none;
+        border: none;
+        background: #ecf0f3;
+    }
+
+    #eval {
+        background: #33cc33;
+        color: #fff;
+        width: 165px;
+    }
+
+    #eval:hover {
+        background: #218e21;
+    }
+
+    #ac {
+        background: #33cc33;
+        color: #fff;
+    }
+
+    #ac:hover {
+        background: #218e21;
+    }
+
+    #ce {
+        background: #33cc33;
+        color: #fff;
+        float: right;
+        font-size: 30px;
+        height: 40px;
+        width: 40px;
+    }
+
+    #ce:hover {
+        background: #218e21;
+    }
+
+    
